@@ -1,0 +1,18 @@
+# Ignore the virtual environment
+.venv/
+venv/
+ENV/
+# Ignore Jupyter Notebook checkpoints and caches
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+__pycache__/
+*.pyc
+# Ignore environment variables / secrets
+.env
+models/*.joblib
+.DS_Store
+# Ignore a specific folder
+data/
+
+# Ignore all large CSV files
+*.csv
